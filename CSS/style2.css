@@ -1,0 +1,39 @@
+container_12{
+	background-color: red;
+}
+
+nav li{
+	display: inline;
+	margin-left: 0;
+	margin-right: 30px;
+}
+
+nav{
+	background: orange;
+}
+
+aside{
+	background: #66dd44;
+}
+
+.primary{
+	background: #e3e3e3;
+}
+
+header{
+	background: yellow;
+	overflow: hidden;
+	/*in 960, can also do " class clearfix"*/
+}
+
+.main{
+	margin-top: 30px;
+
+}
+
+section{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; /*padding is reduced from total size of box. may not work in old IE*/
+	padding: 5px;	
+}	

@@ -1,0 +1,177 @@
+
+body{
+	background-color: gray;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.wrap{
+	width: 600px;
+	margin: auto;
+}
+
+blockquote {
+	border: 1px solid white;
+	text-align: center;
+	margin-left: 0;
+}
+
+
+.divvv{
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+ul{
+	text-align: left;
+	margin: center;
+
+}
+
+{
+		background: grey;
+	}
+	#emphasis {
+		color: green;
+		}
+	.emphasis {
+		color: orange;
+		}
+	
+	
+	.wrap2{
+		min-width: 600px;
+		width: 80%;
+		margin: auto;
+		background: green;
+		overflow: hidden;
+	}
+
+.content {
+	background: red;
+	width: 70%;
+	text-align: center;
+}
+
+aside{
+	list-style: none;
+	padding-left: 0;
+	float: right;
+	text-decoration: none;
+}
+
+#nav li{
+	font-family: sans-serif;
+	display: inline;
+	width: 60%;
+}
+
+ul a: hover{
+	text-decoration: underline;
+}
+
+#logo {
+	float: left
+	margin: auto;
+	background: url(../images/logo.jpg) no-repeat;
+	text-indent: -9999;
+
+}
+h3{
+	text-align: center;
+	font-size: 120px;
+	margin: auto;
+	margin-top: 50px;
+	font-family: sans-serif;
+	letter-spacing: -10px;
+	color: #666;
+	text-transform: lowercase;
+	text-shadow: 
+		5px 5px 0 white,
+		10px -10px 0 red;   
+}
+/* Text-Shadow: x y blur color/>*/
+/*Google.com/webfonts> quick use> copy code into link href...> put google's 'font name' in font family> */
+
+
+.wrap3{
+	width: 800px;
+	height: 1000px;
+	margin: auto;
+	background: green;
+}
+
+.box{
+	width: 400px;
+	height: 400px;
+	margin: auto; /*centers thing on page*/
+	background: red;
+	position: relative; /*pushes box down 200 */>
+	top: 200px; 
+	left: 600px;
+}
+
+.box2{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	background: blue;
+	position: absolute; /*top 200px & left 200px below is absolutely positioned within its parent (in this case, body is parent)  */>
+	top: 200px; 
+	left: 600px;
+}
+
+#logo2 {
+	float: left;
+	width: 230px;
+	height: 219px;
+	margin: auto;
+	position: absolute;
+	left: 75px;
+	text-indent: -9999;
+}
+
+#meta li {
+	display: inline;
+}
+
+article h2{
+	font-size: 39px;
+	line-height: 45px;
+	margin-top: 0px;
+}
+
+wrap4{
+	width: 600px;
+	margin: 20px auto;
+}
+
+article img{
+	float: left;
+	margin-right: 25px;
+}
+
+#meta a, .post_info{
+	font-style: italic;
+}
+
+#meta{
+	padding-left: 0;
+}
+
+.post_info{	
+	background: white;
+	color: black;
+	padding: 3px;
+	float: left; /* shrink-wrap*/
+
+}
+.preview{
+	float: right;
+	width: 1000px;
+}
+
+.lorem{
+	clear: both; /* clears floats so that the text doesn't surround the floated item
+}
